@@ -13,7 +13,7 @@ class DYNAMICINVENTORY_API AItemPlayerBase : public AItemBase
 
 public: 	
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Item Base")
-	void DropItem();
+	void OnItemDropped();
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Item Base")
 	void SetEquipItem(bool Equip);
